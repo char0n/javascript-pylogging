@@ -1,0 +1,7 @@
+/node_modules/
+/esm/
+.idea/
+*.iml
+.vscode/settings.json
+isolate-*.log
+.log*
