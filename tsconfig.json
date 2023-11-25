@@ -12,12 +12,13 @@
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
     "typeRoots": ["./node_modules/@types"],
+    "declaration": true,
     "types": [
       "node"
     ]
   },
   "include": [
-    "./src/**/*.ts"
+    "./src/LogRecord.ts"
   ],
   "exclude": [
     "node_modules"
