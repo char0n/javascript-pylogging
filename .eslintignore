@@ -1,0 +1,5 @@
+/esm
+/cjs
+/.eslintrc.cjs
+/node_modules
+/**/*.js

@@ -2,14 +2,6 @@ import STYLES, { Style } from './styles';
 import type { LogRecordInstance } from './LogRecord';
 import LoggingError from './LoggingError';
 
-class Test {
-  test = 3;
-}
-
-class Test1 implements Test {
-  test = 3;
-}
-
 export interface FormatterOptions {
   readonly fmt?: Style['fmt'];
   readonly datefmt?: string;
