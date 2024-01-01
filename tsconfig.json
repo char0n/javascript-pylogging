@@ -14,11 +14,13 @@
     "typeRoots": ["./node_modules/@types"],
     "declaration": true,
     "types": [
-      "node"
+      "node",
+      "mocha"
     ]
   },
   "include": [
-    "./src/LogRecord.ts"
+    "./src/**/*.ts",
+    "./test/**/*.ts"
   ],
   "exclude": [
     "node_modules"

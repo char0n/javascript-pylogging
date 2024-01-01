@@ -1,0 +1,10 @@
+{
+  "recursive": true,
+  "spec": "test/**/*.ts",
+  "file": [
+    "test/mocha-bootstrap.js"
+  ],
+  "require": [
+    "tsx"
+  ]
+}
